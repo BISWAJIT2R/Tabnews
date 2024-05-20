@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Tab News",
+    "description": "This is a chrome extension, where you can see all the top news in the india some others country.",
+    "version": "0.0.1",
+    "icons": {
+        "48": "icons/icons8-fox-48.png",
+        "128": "icons/icons8-fox-96.png"
+    },
+    "action": {
+        "default_popup": "Popup/index.html"
+    },
+
+    "permissions": ["activeTab"],
+
+    "host_permissions": [
+        "http:///*/*",
+        "https:///*/*"
+    ]
+}
