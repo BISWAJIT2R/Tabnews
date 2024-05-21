@@ -1,9 +1,10 @@
 import React from 'react'
 
-const NewsContainer = ({Children}) => {
+const NewsContainer = ({children}) => {
   return (
     <div className="news-container">
-          {Children}
+     {children
+     }
     </div>
   )
 }
