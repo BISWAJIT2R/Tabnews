@@ -9,5 +9,9 @@
     },
     "action": {
         "default_popup": "index.html"
-    }
+    },
+    "permissions": [
+        "activeTab",
+        "https://newsapi.org/"
+    ]
 }
